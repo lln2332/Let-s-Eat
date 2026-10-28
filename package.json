@@ -1,0 +1,14 @@
+{
+  "name": "lets-eat-lunch-wheel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "饭点了：支持独立 JSON 美食存储的午餐大转盘",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check public/app.js"
+  }
+}
